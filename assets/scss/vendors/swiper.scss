@@ -1,0 +1,29 @@
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+@import "swiper/css/effect-fade";
+
+.swiper-pagination {
+  position: absolute;
+  bottom: -1.5rem;
+}
+
+.swiper-button-prev {
+  background: $text;
+  color: $color-arrow;
+  width: 3.75rem;
+  height: 3.75rem;
+  &::after {
+    font-size: 1rem;
+  }
+}
+
+.swiper-button-next {
+  background: $text;
+  color: $color-arrow;
+  width: 3.75rem;
+  height: 3.75rem;
+  &::after {
+    font-size: 1rem;
+  }
+}
